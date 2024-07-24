@@ -14,8 +14,4 @@ public class BookmarkDTO {
     private String title;
     private String url;
     private Instant createdAt;
-
-    public String getTitle() {
-        return "제목 = " + title;
-    }
 }
